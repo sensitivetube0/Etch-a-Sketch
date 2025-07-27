@@ -1,0 +1,64 @@
+.square50 {
+    width: 18px;
+    height: 16px;
+    border: 1px solid black;
+    display: inline;
+    margin: 0;
+}
+
+
+.container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    max-width: 500px;
+    max-height: 700px;
+    border:10px solid pink;
+    margin: auto;
+    
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+   
+}
+.white{
+    background-color: white;
+}
+input{
+   display: flex; 
+   margin-top: 20px;
+   margin-bottom: 0;
+   margin-left: 0;
+   margin-right: 0;
+   max-width: 224px;
+   min-width: 224px;
+   
+   
+}
+.allignment{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    margin-top: 0;       
+    margin-bottom: 0;
+    padding: 5px 15px;
+}
+.buttons{
+    display: flex;
+    margin-top: 18px;
+    justify-content: center;
+    gap: 10px;
+    
+}
+#center{
+    display: contents;
+}
